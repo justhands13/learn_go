@@ -1,9 +1,8 @@
 module github.com/justhands13/learn_go
 
-go 1.20
+go 1.2
 
-replace github.com/justhands13/reverse_int v0.0.0 => ../reverse_int
-
-require github.com/justhands13/reverse_int v0.0.0
-
-require github.com/wagslane/go-tinytime v0.0.1
+require (
+	github.com/justhands13/reverse_int/v2 v2.0.0-20230605174952-977899bd1a4e // indirect
+	github.com/wagslane/go-tinytime v0.0.1
+)
