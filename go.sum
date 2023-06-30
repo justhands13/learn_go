@@ -4,6 +4,8 @@ github.com/justhands13/reverse_int/v2 v2.0.0-20230605174952-977899bd1a4e h1:cMof
 github.com/justhands13/reverse_int/v2 v2.0.0-20230605174952-977899bd1a4e/go.mod h1:e+0sL/nbo1fznThPRmSsojugSFD/hmJaKgLLezicb4E=
 github.com/justhands13/reverse_string/v2 v2.0.0-20230630071557-0399c3d63e40 h1:5R8JkRstZk7gorG1Y/SVDrL9L5yteWOfXS6SV5JxuS4=
 github.com/justhands13/reverse_string/v2 v2.0.0-20230630071557-0399c3d63e40/go.mod h1:xXxOQ/7H5SKkmM7xCfIqtH+5+tSeqyM3EWurZ7sWutU=
+github.com/justhands13/web_scrapper/v2 v2.0.0-20230630111246-bc676b489bae h1:Ve/uraoZtBUyCdu19PgnA8JiRjs/MchkhHnYdXnkpz8=
+github.com/justhands13/web_scrapper/v2 v2.0.0-20230630111246-bc676b489bae/go.mod h1:2KbHX7KkFZ4bT2HnZh3SSUvs6ohlZGNfnOOVut7g1gM=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
