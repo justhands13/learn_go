@@ -1,5 +1,9 @@
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/justhands13/reverse_int/v2 v2.0.0-20230605174952-977899bd1a4e h1:cMof/Kdv69/aEm/HxKrtui5FiYf0wKt11gzXBx0dsYk=
 github.com/justhands13/reverse_int/v2 v2.0.0-20230605174952-977899bd1a4e/go.mod h1:e+0sL/nbo1fznThPRmSsojugSFD/hmJaKgLLezicb4E=
 github.com/justhands13/reverse_string/v2 v2.0.0-20230630071557-0399c3d63e40 h1:5R8JkRstZk7gorG1Y/SVDrL9L5yteWOfXS6SV5JxuS4=
