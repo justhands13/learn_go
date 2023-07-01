@@ -64,3 +64,27 @@ func (s *Server) removeShoppingItem() http.HandlerFunc {
 		}
 	}
 }
+
+func (s *Server) changeShoppingItem() http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		//parse newItem from request
+		var newItem models.ShoppingItem
+		if err := json.NewDecoder(r.Body).Decode(&newItem); err != nil {
+			http.Error(w, err.Error(), http.StatusBadRequest)
+			return
+		}
+		//parse id from params
+		idStr, _ := mux.Vars(r)["id"]
+		id, err := uuid.Parse(idStr)
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusBadRequest)
+		}
+		//change name in shopping cart
+		for i := 0; i < len(s.shoppingCart); i++ {
+			if s.shoppingCart[i].ID == id {
+				s.shoppingCart[i].Name = newItem.Name
+				break
+			}
+		}
+	}
+}
